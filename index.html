@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        firstValue = prompt("Create variable firstValue and assign a value of number 1");
+        operator = prompt("Create variable operator and assign it a value of string '+'.");
+        secondValue = prompt("Create variable secondValue and assign it a value of number 2.");
+        firstValue = parseInt(firstValue);
+        secondValue = parseInt(secondValue);
+        switch(operator){
+            case "+":
+            console.log(firstValue + secondValue);
+            break;
+            case "-":
+            console.log(firstValue - secondValue);
+            break;
+            case "*":
+            console.log(firstValue * secondValue);
+            break;
+            case "/":
+            console.log(firstValue / secondValue);
+            break;
+            default:
+            console.log("Invalid operator");
+        }
+    </script>
+</body>
+
+</html>
